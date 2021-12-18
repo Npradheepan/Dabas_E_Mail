@@ -1,0 +1,1 @@
+CREATE TABLE `usermanagement`.`userconform` ( `id` INT(21) NOT NULL AUTO_INCREMENT , `username` VARCHAR(45) NOT NULL , `password` VARCHAR(99) NOT NULL , `conformpassword` VARCHAR(99) NOT NULL , `status` INT(99) NOT NULL DEFAULT 'active' , PRIMARY KEY (`id`)) ENGINE = InnoDB;
